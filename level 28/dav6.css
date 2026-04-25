@@ -1,0 +1,40 @@
+body{
+background-color: orange;
+color: greenyellow;
+
+}
+h1{
+background-color: green;
+text-align: center;
+font-size: large;
+border: lime solid;
+
+
+
+
+}
+
+p{
+text-align: center;
+background-color: green;
+font-size: medium;
+border: lime solid;
+color: black;
+
+
+}
+div{
+text-align: center;
+font-size: x-large;
+background-color: lime;
+color: green;
+border: solid green;
+
+
+}
+
+button{
+background-color: green;
+border: dashed lime;
+
+}

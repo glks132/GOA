@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(205, 205, 56);
+color: limegreen;
+
+
+}
+
+h1{text-align: center;
+    font-size: xx-large;
+    border: solid green;
+    background-color: yellow;
+
+
+
+
+}
+
+p{
+font-size: large;
+text-align: center;
+background-color: green;
+color: black;
+border: solid yellow 9px;
+
+
+
+}
+
+div{
+font-size: x-large;
+background-color: green;
+color: black;
+border: solid darkgreen;
+
+
+}
+
+button{
+background-color: green;
+border: solid greenyellow;
+
+}

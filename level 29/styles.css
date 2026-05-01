@@ -1,0 +1,36 @@
+body{
+    background-color: orangered;
+color: limegreen;
+
+
+}
+
+h1{text-align: center;
+    font-size: xx-large;
+    border: solid orangered;
+    background-color: yellow;
+
+
+
+
+}
+
+p{
+font-size: large;
+text-align: center;
+background-color: darkgoldenrod;
+color: black;
+border: solid yellow 9px;
+
+
+
+}
+
+div{
+font-size: x-large;
+background-color: orange;
+color: black;
+border: solid darkgoldenrod;
+
+
+}

@@ -1,0 +1,45 @@
+/* zemota */
+.main1 {
+    text-align: center;
+    border: black 2px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+
+a:hover {
+    font-size: xx-large;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+
+
+
+
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+iframe {
+    margin-left: 30%;
+}

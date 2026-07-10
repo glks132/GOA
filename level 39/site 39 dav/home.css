@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: 1px 1px 3px rgb(210, 190, 190);
+
+}
+
+
+
+body {
+    background-color: rgb(159, 127, 117);
+}
+
+p {
+    text-align: center;
+}
+
+#img1 {
+    margin-left: 40%;
+}
+
+#img2 {
+    margin-left: 36%;
+}
+
+img {
+    border-radius: 15px
+}
+
+
+
+/* zemota */
+.main1 {
+    text-align: center;
+    border: black 2px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+
+a:hover {
+    font-size: xx-large;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}

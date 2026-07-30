@@ -1,0 +1,23 @@
+div {
+    width: 250px;
+    height: 250px;
+    border: solid black 3px;
+}
+
+#divv {
+    width: 500px;
+    height: 500px;
+    display: flex
+}
+
+
+
+#div1 {
+    flex: shrink 1;
+}
+
+#div2 {
+    flex-shrink: 0;
+}
+
+#div3{flex-shrink: 2;}

@@ -1,0 +1,17 @@
+div {
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+b {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

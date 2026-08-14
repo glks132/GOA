@@ -1,0 +1,16 @@
+#divv {
+    height: 300px;
+    width: 350px;
+    border: solid black 3px;
+    position: relative;
+}
+
+#div1 {
+    height: 50px;
+    width: 60px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}

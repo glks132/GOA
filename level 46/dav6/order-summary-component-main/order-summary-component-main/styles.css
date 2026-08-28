@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-image: url(./pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+#divv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+
+
+
+
+}
+
+#img1 {
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+#textdiv {
+    padding: 10px;
+    text-align: center;
+}
+
+#p1 {
+    font-size: 17px;
+    color: hsl(224, 23%, 55%);
+}
+
+#pay {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 30px ;
+
+}
+
+#payment {
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 25px;
+    padding-left: 90px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 8px 17px rgba(64, 52, 217, .22);
+
+}
+
+
+#p3 {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+#img2 {
+    width: 50px;
+    position: absolute;
+    left: 70px;
+}
+
+#u1 {
+    position: absolute;
+    top: 345px;
+    right: 20px;
+}
+
+#payment:hover{background-color: rgb(97, 97, 180);transition: 1s;}

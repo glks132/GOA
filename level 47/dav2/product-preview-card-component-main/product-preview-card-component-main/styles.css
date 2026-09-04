@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+body {
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+#maindiv {
+    display: flex;
+    width: 700px;
+    height: 540px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+#cologne {
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    color: hsl(212, 21%, 14%);
+}
+
+
+#perfume {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+
+}
+
+#floral {
+    font-size: 20px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+h2 {
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+}
+
+
+
+h3 {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+
+button {
+    height: 50px;
+    width: 275px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+#cartimg {
+    height: 16px;
+    width: 16px;
+}
+
+#text {
+    margin-left: 30px;
+}
+
+
+button:hover {
+    background-color: hsl(158, 42%, 18%);
+    transition: 0.5s;
+}

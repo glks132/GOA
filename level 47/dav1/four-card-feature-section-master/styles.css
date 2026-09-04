@@ -1,0 +1,195 @@
+#maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-bottom: 00px;
+
+}
+
+#p11 {
+    font-weight: lighter;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-size: 44px;
+    margin-bottom: 6px;
+}
+
+#h111 {
+    text-align: center;
+    font-size: 44px;
+    color: hsl(234, 12%, 34%);
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+
+#pp1 {
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+   font-size: xx-large;
+}
+
+
+/*  supervisior -------------------------------------------------------------- */
+#div1 {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border-top: hsl(180, 62%, 55%) 5px solid;
+    box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+
+}
+
+#super {
+    font-size: x-large;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    color: hsl(234, 12%, 34%);
+}
+
+#superp {
+    color: hsl(212, 6%, 44%);
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#superimg {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+
+/* ---------------------------- */
+
+
+
+#div2 {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border-top: hsl(0, 78%, 62%) 5px solid;
+    box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    top: 150px;
+
+
+
+}
+
+/* team --------------------- */
+#team {
+    font-size: x-large;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    color: hsl(234, 12%, 34%);
+}
+
+#teamp {
+    color: hsl(212, 6%, 44%);
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#teamimg {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+
+
+
+/* karma  --------------------- */
+#karma {
+    font-size: x-large;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    color: hsl(234, 12%, 34%);
+}
+
+#karmap {
+    color: hsl(212, 6%, 44%);
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#karmaimg {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+
+#div3 {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border-top: hsl(34, 97%, 64%) 5px solid;
+    box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;
+}
+
+/* -------------------------- */
+
+
+
+
+/* calculator ----------------------------------------- */
+
+#calcu {
+    font-size: x-large;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    color: hsl(234, 12%, 34%);
+}
+
+#calcup {
+    color: hsl(212, 6%, 44%);
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#calcuimg {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+
+#div4 {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border-top: hsl(212, 86%, 64%) 5px solid;
+    box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: -2px 10px 5px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+/* -------------------------- */
+
+
+#supercal {
+    display: flex;
+    flex-direction: row;
+    gap: 470px;
+}
+

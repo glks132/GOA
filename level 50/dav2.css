@@ -1,0 +1,17 @@
+#maindiv {
+    width: 170px;
+    height: 100px;
+    border: black 3px solid;
+    display: grid;
+    grid-template-rows: 25px 25px 25px 25px;
+    grid-template-columns: 25px 25px 25px 25px;
+    gap: 20px;
+    grid-auto-rows: 150px;
+}
+
+#maindiv div {
+    background-color: green;
+    color: white;
+    width: 25px;
+    height: 25px;
+}

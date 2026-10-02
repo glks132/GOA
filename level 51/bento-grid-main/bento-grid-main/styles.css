@@ -1,0 +1,177 @@
+body {
+    height: 100vh;
+}
+
+#divv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#maindiv {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    gap: 10px;
+
+}
+
+#maindiv div {
+    box-shadow: -1px 3px 75px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -1px 3px 75px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 3px 75px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+
+
+#div1 {
+    grid-area: 1/10/7/13;
+    background-color: hsl(254, 88%, 90%);
+    text-align: center;
+}
+
+#div1 h1 {
+    font-size: x-large;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+h6 {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+
+#div2 {
+    grid-area: 1/4/4/10;
+    text-align: center;
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+}
+
+#div2 b {
+    color: hsl(39, 100%, 71%);
+}
+
+#div2 h1 {
+    font-size: 30px;
+}
+
+#div2 h1 {
+    margin-bottom: 5px;
+}
+
+#div2 p {
+    margin: 0;
+    font-size: small;
+}
+
+
+
+
+#div3 {
+    grid-area: 4/4/7/7;
+}
+
+#div3 h1 {
+    font-size: large;
+    text-align: left;
+    margin-left: 5px;
+}
+
+
+
+
+
+#div4 {
+    grid-area: 4/7/7/10;
+    background-color: hsl(39, 100%, 71%);
+    text-align: center;
+}
+
+#div4 h1 {
+    font-size: medium;
+}
+
+
+
+
+#div5 {
+    grid-area: 7/4/10/7;
+    text-align: center;
+}
+
+#div5 p {
+    margin: 0;
+    font-size: small;
+}
+
+#div5 h1 {
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+
+
+
+#div6 {
+    grid-area: 7/7/10/13;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    background-color: hsl(256, 67%, 59%);
+
+}
+
+#div6 h1 {
+    font-size: x-large;
+    margin-right: 10px;
+
+}
+
+#div6 img {
+    width: 170px;
+    margin-left: 10px;
+}
+
+
+#div7 {
+    grid-area: 1/1/5/4;
+    text-align: center;
+    background-color: hsl(31, 66%, 93%);
+}
+
+#div7 h1 {
+    font-size: x-large;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#b1 {
+    color: hsl(256, 67%, 59%);
+
+}
+
+
+
+
+
+#div8 {
+    grid-area: 5/1/10/4;
+    text-align: center;
+    background-color: hsl(39, 100%, 71%);
+
+}
+
+#div8 h1 {
+    font-size: x-large;
+    text-align: left;
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+#maindiv {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(2, 50px);
+}
+
+#div1 {
+    justify-self: center;
+}

@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(9, 12, 21);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* sidebar */
+
+#divv1 {
+    margin-left: 10px;
+}
+
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    color: white;
+    width: 250px;
+    font-size: small;
+    background-color: rgb(13, 17, 29);
+
+}
+
+#aaa {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    color: gray;
+    font-size: x-small;
+}
+
+#qvemot {
+    width: 160px;
+    height: 160px;
+    background-color: rgba(49, 46, 129, 0.523);
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+#qvemot p {
+    color: rgb(142, 155, 176);
+}
+
+#qvemot h3 {
+    color: rgba(117, 54, 220, 0.808);
+}
+
+
+#qvemot button {
+    background-color: rgb(69, 69, 227);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* nav */
+
+header {
+    margin-bottom: 5px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(13, 17, 29);
+    gap: 20px;
+
+}
+
+#hub {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 900;
+
+}
+
+#hub span {
+    color: rgb(88, 80, 236);
+}
+
+#homes {
+    display: flex;
+    margin-left: 90px;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+#search {
+    position: absolute;
+    left: 1200px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: small;
+    background-color: rgb(26, 32, 50);
+    border: rgb(26, 32, 50) 3px solid;
+    color: rgb(255, 255, 255);
+}
+
+/* nav */
+
+
+/* banner */
+
+#banner {
+    background-image: url(https://gamerhub.co.uk/wp-content/uploads/2022/03/Elden-Ring-banner-2.jpg);
+    background-position-y: -220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 850px;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+#divv {
+    display: flex;
+    gap: 10px;
+}
+
+#ba {
+    margin-left: 30px;
+}
+
+#banner button {
+    background-color: rgb(106, 0, 255);
+    color: wheat;
+    border: none;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#banner h2 {
+    color: rgb(138, 133, 132);
+}
+
+p {
+    color: rgb(138, 133, 132);
+
+}
+
+/* banner */
+
+
+/* stat */
+.stat {
+    width: 125px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: rgba(88, 80, 236, 0.15);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* sign */
+#sign {
+    background: #0c0529;
+    background: linear-gradient(39deg, rgba(12, 5, 41, 1) 35%, rgba(8, 1, 99, 1) 100%);
+    width: 375px;
+    height: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+
+#divss {
+    margin-left: 20px;
+}
+
+#logs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#bbb {
+    display: flex;
+    flex-direction: row;
+}
+
+#password {
+    width: 300px;
+    height: 25px;
+    background-color: rgb(4, 12, 37);
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 300px;
+    height: 25px;
+    background-color: rgb(4, 12, 37);
+    border: none;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#button1 {
+    background-color: rgb(69, 69, 227);
+    border: none;
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 900;
+
+}
+
+#acc {
+    text-align: center;
+}
+
+#acc span {
+    color: rgb(69, 69, 227);
+}
+
+#or {
+    text-align: center;
+}
+
+#contgoogle {
+    border: solid 1px rgb(39, 67, 150);
+    background-color: rgb(4, 12, 37);
+    border: none;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+
+}
+
+#contsteam {
+    border: solid 1px rgb(39, 67, 150);
+    background-color: rgb(4, 12, 37);
+    border: none;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+
+
+}

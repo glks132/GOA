@@ -1,0 +1,9 @@
+#maindiv {
+    display: grid;
+    grid-template-columns: repeat(2 40px);
+    grid-template-rows: repeat(3, 40px);
+}
+
+#maindiv img:hover {
+    transform: scale(1.15) rotate(5deg);
+}

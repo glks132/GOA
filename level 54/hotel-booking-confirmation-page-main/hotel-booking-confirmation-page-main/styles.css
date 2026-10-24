@@ -1,0 +1,234 @@
+#maindiv {
+    display: grid;
+    grid-template-columns: repeat(30, 50px);
+    grid-template-rows: repeat(15, 50px);
+    grid-template-areas:
+        "navig navig navig navig navig . satauri satauri satauri satauri satauri . . . . . . . . . . . buttons buttons buttons buttons buttons buttons"
+        "navig navig navig navig navig . satauri satauri satauri satauri satauri . . . . . . . . . . . buttons buttons buttons buttons buttons buttons "
+        "navig navig navig navig navig . satauri satauri satauri satauri satauri . . . . . . . . . . . buttons buttons buttons buttons buttons buttons "
+        "navig navig navig navig navig . divv divv divv divv divv divv . divv2 divv2 divv2 divv2 divv2  divv2 . . . . . . . . ."
+        "navig navig navig navig navig . divv divv divv divv divv divv . divv2 divv2 divv2 divv2 divv2  divv2 . . . . . . . . ."
+        "navig navig navig navig navig . divv divv divv divv divv divv . divv2 divv2 divv2 divv2 divv2  divv2 . . . . . . . . ."
+        "navig navig navig navig navig . divv divv divv divv divv divv . divv2 divv2 divv2 divv2 divv2  divv2 . . . . . . . . ."
+        "navig navig navig navig navig . divv divv divv divv divv divv . divv2 divv2 divv2 divv2 divv2  divv2 . . . . . . . . ."
+        "navig navig navig navig navig . divv divv divv divv divv divv . divv2 divv2 divv2 divv2 divv2  divv2 . . . . . . . . ."
+        "navig navig navig navig navig . . . . . . . . . . . . . . . . . . . . . . ."
+        "navig navig navig navig navig . div1 div1 div1 div1 div1 div1  . div2 div2 div2 div2 div2 div2 . div3 div3 div3 div3 div3 div3 . ."
+        "navig navig navig navig navig . div1 div1 div1 div1 div1 div1  . div2 div2 div2 div2 div2 div2 . div3 div3 div3 div3 div3 div3 . ."
+        "navig navig navig navig navig . div1 div1 div1 div1 div1 div1  . div2 div2 div2 div2 div2 div2 . div3 div3 div3 div3 div3 div3 . ."
+        "navig navig navig navig navig . div1 div1 div1 div1 div1 div1  . div2 div2 div2 div2 div2 div2 . div3 div3 div3 div3 div3 div3 . ."
+
+}
+
+
+
+#navig {
+    grid-area: navig;
+    width: 100%;
+    background-color: white;
+    border: black solid 1px;
+    padding: 10px;
+
+}
+
+.divs {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+#satauri {
+    grid-area: satauri;
+}
+
+#satauri h5 {
+    letter-spacing: 5px;
+    color: gray;
+}
+
+#satauri span {
+    color: hsl(15, 69%, 37%);
+}
+
+#div1 {
+    grid-area: div1;
+    padding: 15px;
+    border-radius: 10px;
+    border: gray 1px solid;
+    box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+}
+
+#div2 {
+    grid-area: div2;
+    border: gray 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+}
+
+#div3 {
+    grid-area: div3;
+    border: gray 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 7px 13px -12px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+#num {
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    justify-content: space-between;
+}
+
+#date h5 {
+    margin: 1px;
+    color: rgb(181, 164, 164);
+}
+
+#date h4 {
+    margin-bottom: 2px;
+}
+
+#num h4 {
+    margin: 0;
+    color: crimson;
+}
+
+#num b {
+    color: crimson;
+}
+
+
+#network {
+    display: flex;
+    background-color: rgb(147, 147, 147);
+    justify-content: space-between;
+    border: white 3px solid;
+    color: rgb(179, 182, 184);
+}
+
+#pass {
+    display: flex;
+    background-color: rgb(147, 147, 147);
+    justify-content: space-between;
+    border: white 3px solid;
+    color: rgb(179, 182, 184);
+
+}
+
+
+#breakfast h4 {
+    margin: 0;
+    color: rgb(255, 6, 247);
+}
+
+#breakfast {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#breakfast b {
+    color: rgb(255, 6, 247);
+}
+
+#wifi {
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    justify-content: space-between;
+    color: rgb(61, 61, 226);
+}
+
+#wifi h4 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#divv {
+    grid-area: divv;
+    background-color: white;
+}
+
+#divv2 {
+    grid-area: divv2;
+    background: #bd2d2d;
+    background: linear-gradient(90deg, rgba(189, 45, 45, 1) 50%, rgba(247, 154, 22, 1) 100%);
+    color: rgb(234, 202, 175);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 0px 96px -32px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 0px 96px -32px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 0px 96px -32px rgba(0, 0, 0, 0.75);
+    rotate: 7deg;
+    position:relative ;
+    right: 50px;
+}
+
+
+
+#divv2 p {
+    font-size: 10px;
+}
+
+#divv2 hr {
+    border-top: rgb(234, 202, 175) dashed 1px;
+}
+
+
+
+#bt1 {
+    border: gray solid 1px;
+    font-size: small;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+
+
+#bt2 {
+    border: gray solid 1px;
+    font-size: small;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(39, 36, 36);
+    color: white;
+
+}
+
+
+#buttons {
+    display: flex;
+    gap: 10px;
+    grid-area: buttons;
+}
+
+#divv {
+    border: black solid 1px;
+    border-radius: 10px;
+    rotate: -7deg;
+
+}

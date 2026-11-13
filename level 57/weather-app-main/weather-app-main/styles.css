@@ -1,0 +1,270 @@
+#maindiv {
+    display: grid;
+    grid-template-columns: repeat(30, 40px);
+    grid-template-rows: repeat(15, 40px);
+    grid-template-areas:
+        ". weather weather weather . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . p1 p1 p1 p1 p1 p1 p1 p1 p1 . . . . . . . . . . . . . . . . . ."
+        ". . . search search search search search search search search search search . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+        ". boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv boxdiv . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". mini1 mini1 min2 min2 min3 min3 min4 min4 . . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". mini1 mini1 min2 min2 min3 min3 min4 min4 . . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". d1 d2 d3 d4 d5 d6 d7 . . . sidediv sidediv sidediv sidediv sidediv . . . . . . . . . . . . . ."
+        ". d1 d2 d3 d4 d5 d6 d7 . . . . . . . . . . . . . . . . . . . . . ."
+        ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ;
+
+}
+
+body {
+    background-color: hsl(243, 96%, 9%);
+}
+
+
+#weather {
+    grid-area: weather;
+}
+
+#boxdiv {
+    grid-area: boxdiv;
+    background-image: url(./assets/images/bg-today-large.svg);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: start;
+
+
+}
+
+#sidediv {
+    grid-area: sidediv;
+    background-color: hsl(243, 23%, 24%);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(243, 231, 231);
+    position: inherit;
+
+}
+
+#minidiv1 {
+    grid-area: mini1;
+    background-color: hsl(243, 23%, 30%);
+}
+
+#minidiv2 {
+    grid-area: min2;
+    background-color: hsl(243, 23%, 30%);
+}
+
+#minidiv3 {
+    grid-area: min3;
+    background-color: hsl(243, 23%, 30%);
+}
+
+
+
+#minidiv4 {
+    grid-area: min4;
+    background-color: hsl(243, 23%, 30%);
+}
+
+
+
+#d1 {
+    grid-area: d1;
+}
+
+#d2 {
+    grid-area: d2;
+}
+
+#d3 {
+    grid-area: d3;
+}
+
+#d4 {
+    grid-area: d4;
+}
+
+#d5 {
+    grid-area: d5;
+}
+
+#d6 {
+    grid-area: d6;
+}
+
+#d7 {
+    grid-area: d7;
+}
+
+
+
+#p1 {
+    grid-area: p1;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#search {
+    grid-area: search;
+    display: flex;
+    flex-direction: row;
+}
+
+#inp {
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(243, 23%, 30%);
+    border: none;
+}
+
+#inp::placeholder {
+    color: hsl(240, 6%, 70%);
+}
+
+button {
+    width: 55px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: hsl(233, 67%, 56%);
+}
+
+
+#dd1 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+}
+
+#dd2 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+}
+
+#dd3 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+}
+
+#dd4 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+}
+
+#dd5 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+}
+
+#dd6 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+}
+
+#dd7 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+}
+
+#dd8 {
+    width: 175px;
+    height: 30px;
+    background-color: hsl(243, 23%, 30%);
+    border: hsl(243, 23%, 24%) 2px solid;
+    border-radius: 5px;
+
+}
+
+
+
+#aaa {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+#aaa p {
+    margin: 0;
+}
+
+
+#temperature {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    font-size: xx-large;
+}
+
+
+.minidiv {
+    border-radius: 5px;
+    border: 2px solid hsl(243, 96%, 9%);
+}
+
+.minidiv h3 {
+    color: rgb(202, 191, 191);
+    font-size: medium;
+}
+
+.minidiv h4 {
+    color: gray;
+    font-size: small;
+}
+
+.minidiv h5 {
+    color: gray;
+}
+
+
+
+
+.dailies {
+    background-color: hsl(243, 23%, 30%);
+    font-size: x-small;
+    color: hsl(250, 6%, 84%);
+    text-align: center;
+    border: 2px solid hsl(243, 96%, 9%);
+    border-radius: 10px;
+
+}
+
+.dailies span {
+    word-spacing: 5px;
+}
